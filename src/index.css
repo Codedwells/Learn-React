@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* ----------------------code for  head----------------------------- */
+.headContainer {
+  background-color: rgb(177, 208, 235);
+  border-bottom: 2px solid gainsboro;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  height: 25px;
+  width: auto;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 2px;
+  margin: 8px;
+  border-radius: 5px;
+  color: antiquewhite;
+  border: 2px solid transparent;
+}
+.btn:hover {
+  border: 2px solid white;
+}
+.state-div {
+  background-color: black;
+  color: aliceblue;
+  margin-top: 20px;
+  height: 30px;
+  text-align: center;
+  border-radius: 8px;
+  width: 500px;
+  padding-top: 7px;
+  font-size: 20px;
+}
+.circle {
+  background-color: aqua;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 50%;
+  color: black;
+}
+
+/* array */
+.boxx {
+  text-align: center;
+  display: inline;
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 5px;
+}
